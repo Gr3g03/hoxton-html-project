@@ -10,6 +10,7 @@ header{
     height: 50px;
     border-bottom: 0.3px solid rgb(190, 190, 190);
     align-content: center; 
+    background-color: rgba(199, 199, 199, 0.068);
 }
 
 .left-header{
@@ -57,7 +58,7 @@ header{
 
 main{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     justify-content: center;
     gap: 2rem;
 }
@@ -65,7 +66,8 @@ main{
 .search-section{
     margin-top: 2rem;
     display: grid;
-    border-bottom:  0.3px solid rgb(190, 190, 190);
+    grid-template-rows: 1fr 1fr;
+    /* border-bottom:  0.3px solid rgb(190, 190, 190); */
 }
 
 .search-section__{
@@ -74,6 +76,7 @@ main{
     grid-auto-flow: row;
     justify-content: center;
     gap: 0.5rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -104,12 +107,44 @@ main{
 
 .recent-searches{
     display: grid;
-    border: 1px solid black;
+    padding: 0.5rem;
 }
+
+.recent-searches-box{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 2rem;
+}
+
+
 
 .suggested-searches{
     display: grid;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+.suggested{
+    display: grid;
+    grid-template-columns:repeat(4 1fr);
+    
+}
+
+
+.suggested-box{
     border: 1px solid black;
+    display: grid;
+    grid-auto-flow: row;
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+ 
+
 }
 
 
@@ -119,5 +154,32 @@ footer {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     gap: 2rem ;
+    position: absolute;
+    bottom: 0%;
+    width: 100%; 
+    background-color: rgba(199, 199, 199, 0.486);
 }
 
+
+.footer-nav-menu{
+    list-style: none;
+}
+
+.footer-nav-menu li{
+    display: inline;
+    padding: 0.5rem;
+}
+.footer-nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-nav__{
+    text-align: center;
+}
+
+.footer-nav__ a{
+    color: black;
+    text-decoration: none;
+}
