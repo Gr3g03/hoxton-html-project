@@ -370,3 +370,67 @@ footer {
     padding: 1rem;
 }
 
+.salaries-main__{
+    border: 1px solid   black;
+    display: grid;
+    
+}
+
+.salaries-info{
+    color: blue;
+    margin: 0.2rem;
+}
+
+.search-area__{
+    margin: 0.2rem;
+    height: 1.5rem ;
+    border-radius: 5px;
+    border: 0.3px solid blue;
+}
+
+.main-search-btn{
+    height: 1.5rem ;
+    border-radius: 5px; 
+    border: 0.3px solid blue; 
+}
+
+.salaries-svg{
+    display: grid;
+    border: 1px solid   black;
+    height: 20vh;
+    width: 50vw;
+}
+
+
+.top-paying-jobs{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+    border: 1px solid   black;
+    line-height: 2rem;
+}
+
+
+.company-grid{
+    display: grid;
+    border: 1px solid   black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;
+    gap: 1rem;
+    margin-top: -9rem;
+}
+
+.company-grid__{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid   black;
+    width: 15vw;
+
+}
+
+.company-grid-second-section{
+    display: grid;
+    display: inline-block;
+    border: 1px solid   black;
+    margin-top: 0.2rem;
+}
