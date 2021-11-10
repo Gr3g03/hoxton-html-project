@@ -434,3 +434,30 @@ footer {
     border: 1px solid   black;
     margin-top: 0.2rem;
 }
+
+
+.top-careers{
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+}
+
+.top-careers__{
+    display: grid;
+    border: 1px solid   black;
+    justify-content: center;
+}
+
+.popular-careers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    justify-items: center;
+    border: 1px solid   black;
+
+}
+
+.popular-careers a{
+    text-decoration: none;
+    color: black;
+}
+
