@@ -12,22 +12,16 @@
     <form class="sign-in-form">
         <label >
             <h2>Name</h2>
-            <input type="text" required>
+            <input class="name__" type="text" required>
         </label>
 
         <label >
             <h2>Last Name</h2>
-            <input type="text" required>
+            <input class="last-name" type="text" required>
         </label>
-
-            <label >
-                <h2>Birthay</h2>
-                <input type="number" required min="18">
-            </label>
-
             <label >
                 <h2>Birthay Month</h2>
-                <select id="Birthday_Month" name="Birthday_Month">
+                <select class="birthday-month"  id="Birthday_Month" name="Birthday_Month" >
                     <option value="-1">Month:</option>
                     <option value="January">Jan</option>
                     <option value="February">Feb</option>
@@ -45,29 +39,29 @@
             </label>
              <label >
             <h2>Birthay year</h2>
-            <input type="number" required>
+            <input class="birthday-year" type="number" required>
             </label>
             <label >
                 <h2>Gender</h2>
-                Male <input type="radio" name="Gender" required/>
-                Female <input type="radio" name="Gender" required />
+                Male <input class="gender" type="radio" name="Gender" required/>
+                Female <input class="gender" type="radio" name="Gender" required />
             </label>
             <label >
                 <h2>Address</h2>
-                <textarea class="textarea" name="Address" rows="4" cols="30"></textarea>
+                <textarea  class="textarea" name="Address" rows="4" cols="30"></textarea>
             </label>
             <label >
                 <h2>Role</h2>
-                Employer <input type="radio" name="role" required/>
-                Job seeker <input type="radio" name="role" required />
+                Employer <input class="role" type="radio" name="role" required/>
+                Job seeker <input class="role" type="radio" name="role" required />
             </label>
             <label>
             <h2> Email Address</h2>
-            <input type="email" required>
+            <input class="email" type="email" required>
         </label>
         <label>
             <h2>Password</h2>
-            <input type="password" required>
+            <input class="password" type="password" required>
         </label>  
         <label>
             <button class="sign-up-button">Sign up</button>
